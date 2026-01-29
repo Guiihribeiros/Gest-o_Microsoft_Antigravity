@@ -17,3 +17,5 @@ Este documento registra as intervenÃ§Ãµes e auditorias realizadas no ambiente Mi
 
 ### 29/01/2026 - Verificação de MFA concluída para Admin Permanente via Agente IA.
 > [NOTA TÉCNICA] A automação identificou a necessidade da permissão 'UserAuthenticationMethod.Read.All' para futuras auditorias automáticas (Erro 403 ignorado administrativamente).
+
+### 29/01/2026 - Documentação do Pilar de Gestão de Endpoints (Intune/AVD) concluída via Agente IA.
