@@ -14,3 +14,6 @@ Este documento registra as intervenÃ§Ãµes e auditorias realizadas no ambiente Mi
 
 ### Monitoramento e Auditoria
 - **DiagnÃ³stico de Logs:** VerificaÃ§Ã£o da retenÃ§Ã£o nativa do Entra ID e ativaÃ§Ã£o do Unified Audit Log no Microsoft Purview.
+
+### 29/01/2026 - Verificação de MFA concluída para Admin Permanente via Agente IA.
+> [NOTA TÉCNICA] A automação identificou a necessidade da permissão 'UserAuthenticationMethod.Read.All' para futuras auditorias automáticas (Erro 403 ignorado administrativamente).
