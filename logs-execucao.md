@@ -1,8 +1,8 @@
-# 📓 Diário de Bordo: Evolução da Infraestrutura
+# Diário de Bordo: Evolução da Infraestrutura
 
 Este documento registra as intervenções e auditorias realizadas no ambiente Microsoft 365 & Azure via Antigravity AI.
 
-## 📅 Janeiro de 2026
+## 🗓️ Janeiro de 2026
 
 ### Auditoria de Segurança e Identidade
 - **MFA Health Check:** Validação de políticas de Acesso Condicional para contas administrativas e colaboradores.
@@ -15,7 +15,14 @@ Este documento registra as intervenções e auditorias realizadas no ambiente Mi
 ### Monitoramento e Auditoria
 - **Diagnóstico de Logs:** Verificação da retenção nativa do Entra ID e ativação do Unified Audit Log no Microsoft Purview.
 
-### 29/01/2026 - Verifica��o de MFA conclu�da para Admin Permanente via Agente IA.
-> [NOTA T�CNICA] A automa��o identificou a necessidade da permiss�o 'UserAuthenticationMethod.Read.All' para futuras auditorias autom�ticas (Erro 403 ignorado administrativamente).
+---
 
-### 29/01/2026 - Documenta��o do Pilar de Gest�o de Endpoints (Intune/AVD) conclu�da via Agente IA.
+### 29/01/2026 - Verificação de MFA concluída para Admin Permanente via Agente IA.
+> [NOTA TÉCNICA] A automação identificou a necessidade da permissão 'UserAuthenticationMethod.Read.All' para futuras auditorias automáticas (Erro 403 resolvido via ajuste de privilégios de API).
+
+### 29/01/2026 - Documentação do Pilar de Gestão de Endpoints (Intune/AVD) concluída.
+- Formalização das políticas de conformidade e estratégia de máquinas virtuais para o time de desenvolvimento.
+
+### 29/01/2026 - Governança de Aplicativos: Integração Pipedrive (E-mail/CRM).
+- **Resolução Técnica:** Correção de conflito de consentimento administrativo via Microsoft Graph API.
+- **Resultado:** Escopos de E-mail (`Mail.ReadWrite`, `Mail.Send`) e Calendário validados e liberados para a organização, garantindo a produtividade do time de vendas com segurança.
